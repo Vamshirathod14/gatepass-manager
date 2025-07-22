@@ -13,7 +13,7 @@ authors:
     orcid: 0009-0004-8328-3655
     affiliation: 1
   - name: Gaddi Deepthi
-    orcid:
+    orcid: 0009-0003-8916-5927
     affiliation: 2
   - name: Jadala Sreeja
     orcid: 0000-0003-1111-2222
