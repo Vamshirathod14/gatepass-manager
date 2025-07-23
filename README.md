@@ -109,8 +109,7 @@ See LICENSE for full terms.
 Author
 **Ramavath Vamshi** – Project Lead, Full-Stack Developer 
 **Gaddi Deepthi** - Contributor
-**Jadala Sreeja** - Contibutor
-**Sunkoju Maheshwara** Chary - Contibutor
+**Sunkoju Maheshwara Chary** - Contibutor
 For submission to the Journal of Open Source Software (JOSS)
 
 ##Contact
