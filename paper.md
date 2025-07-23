@@ -13,23 +13,18 @@ authors:
     orcid: 0009-0004-8328-3655
     affiliation: 1
   - name: Gaddi Deepthi
-    orcid:
+    orcid: 0009-0003-8916-5927
     affiliation: 2
-  - name: Jadala Sreeja
-    orcid: 0000-0003-1111-2222
-    affiliation: 3
   - name: Sunkoju Maheshwara Chary
     orcid: 0009-0001-7774-6076
-    affiliation: 4
+    affiliation: 3
 affiliations:
   - name: Department of CSE, Scient Institute of technology, India
     index: 1
   - name: Department of AIML, Sphoorthy Engineering College , India
     index: 2
-  - name: Department of AIML, Jaymukhi Institute of Technological Sciences, India
-    index: 3
   - name: Department of AIML, Scient Institute of Technology, India
-    index: 4
+    index: 3
 date: 2025-07-22
 license: MIT
 repository: https://github.com/Vamshirathod14/gatepass-manager
