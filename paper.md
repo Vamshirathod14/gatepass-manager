@@ -12,28 +12,12 @@ authors:
   - name: Ramavath Vamshi
     orcid: 0009-0004-8328-3655
     affiliation: 1
-  - name: Gaddi Deepthi
-    orcid: 0009-0003-8916-5927
-    affiliation: 2
-  - name: Jadala Sreeja
-    orcid: 0009-0003-8803-0713
-    affiliation: 3
-  - name: Sunkoju Maheshwara Chary
-    orcid: 0009-0001-7774-6076
-    affiliation: 4
 affiliations:
-  - name: Department of CSE, Scient Institute of technology, India
+  - name: Department of CSE, Scient Institute of Technology, India
     index: 1
-  - name: Department of AIML, Sphoorthy Engineering College , India
-    index: 2
-  - name: Department of AIML, Jaymukhi Institute of Technological Sciences, India
-    index: 3
-  - name: Department of AIML, Scient Institute of Technology, India
-    index: 4
 date: 2025-07-22
 license: MIT
 repository: https://github.com/Vamshirathod14/gatepass-manager
-
 ---
 
 ## Summary
@@ -72,7 +56,7 @@ Each request follows a linear workflow with database updates and SMS notificatio
 
 ## Acknowledgements
 
-This project was developed as part of a collaborative academic mini-project. The authors acknowledge the use of open-source tools and services including Vite, MongoDB Atlas, and Twilio.
+This project was developed as part of an academic mini-project. The author acknowledges the use of open-source tools and services including Vite, MongoDB Atlas, and Twilio.
 
 ## References
 
@@ -80,4 +64,3 @@ This project was developed as part of a collaborative academic mini-project. The
 - MongoDB Atlas – https://www.mongodb.com/atlas
 - React + Vite – https://vitejs.dev/
 - Twilio – https://www.twilio.com/
-- JOSS – https://joss.theoj.org

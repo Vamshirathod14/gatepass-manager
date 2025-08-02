@@ -1,6 +1,6 @@
-# Gatepass management System
+# Gatepass Management System
 
-A full-stack Gatepass Management System designed for educational institutions using **MERN stack** (MongoDB, Express.js, React, Node.js) and **Vite** for fast frontend apps. It features multi-role authentication, CSV-based student import, SMS notifications to parents via Twilio, and a step-wise approval workflow.
+A full-stack Gatepass Management System designed for educational institutions using the **MERN stack** (MongoDB, Express.js, React, Node.js) and **Vite** for fast frontend apps. It features multi-role authentication, CSV-based student import, SMS notifications to parents via Twilio, and a step-wise approval workflow.
 
 ---
 
@@ -43,7 +43,7 @@ A full-stack Gatepass Management System designed for educational institutions us
 ---
 
 ## 📁 Project Structure
-Gatepass_management/
+gatepass-management/
 ├── backend/ # Express API, MongoDB, Twilio, JWT
 ├── user-panel/ # Vite app - Students
 ├── incharge-panel/ # Vite app - Incharges
@@ -51,8 +51,12 @@ Gatepass_management/
 ├── security-panel/ # Vite app - Security
 ├── LICENSE
 ├── README.md
-├── paper.md # JOSS paper submission
+├── paper.md # Research summary for Zenodo
 ├── .gitignore
+
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Clone the Repo
@@ -60,71 +64,64 @@ Gatepass_management/
 ```bash
 git clone https://github.com/Vamshirathod14/gatepass-manager.git
 cd gatepass-management
-
-###set up backend
+2. Setup Backend
 cd backend
 npm install
 npm run dev
-
-#create a .env file in backend folder
+Create a .env file in backend/ with:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 TWILIO_SID=your_twilio_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_PHONE=+91xxxxxxxxxx
+Check backend/.env.example for reference.
+3. Setup Each Frontend Panel
+Repeat for each folder (user-panel, incharge-panel, hod-panel, security-panel):
 
-#check backend/.env.example for reference 
-
-#set up frontend
-Repeat this for each folder: user-panel, incharge-panel, hod-panel, security-panel
 cd user-panel
 npm install
 npm run dev
+ How It Works
 
-#How It Works
-Student submits a gatepass request
+1.Student submits a gatepass request
 
-Incharge approves/rejects
+2.Incharge approves or rejects
 
-If approved, it moves to HOD
+3.HOD gives final approval if passed
 
-HOD gives final approval
+4.Security marks student as "Out"
 
-Security marks exit and triggers SMS to parent
+5.SMS sent to parent using Twilio
 
-Monthly limit: 3 passes per student (resets automatically)
+6.Each student gets max 3 passes per month (auto resets)
 
-#security Notes
-Real .env is ignored via .gitignore
+Security Notes
+Sensitive data is stored in .env files (ignored by Git)
 
-Never commit secrets — use .env.example instead
+Twilio SMS keeps parents notified of student exit
 
-Twilio alerts ensure parent awareness of student exit
+Admin controls all student uploads via CSV
 
-##LICENSE 
-
+License
 This project is licensed under the MIT License.
-See LICENSE for full terms.
+See the LICENSE file for details.
 
 Author
-**Ramavath Vamshi** – Project Lead, Full-Stack Developer 
-**Gaddi Deepthi** - Contributor
-**Jadala Sreeja** - Contibutor
-**Sunkoju Maheshwara Chary** - Contibutor
-For submission to the Journal of Open Source Software (JOSS)
+ **Ramavath Vamshi** – Project Lead & Full-Stack Developer  
+📧 [vamshinaikramavath@gmail.com](mailto:vamshinaikramavath@gmail.com)  
+🔗 [ORCID iD](https://orcid.org/0009-0004-8328-3655)  
+🔗 [LinkedIn](https://www.linkedin.com/in/vamshiramavat/)
 
-##Contact
-    vamshinaikramavath@gmail.com
 
 ---
 
-### ✅ Next Steps:
+### ✅ Now do this:
 
-1. Copy the full content above
-2. Paste it into your `README.md` file (create if not there)
-3. Save and push:
-
+1. Replace `README.md` content in your GitHub repo with this.
+2. Push it to GitHub:
 ```bash
 git add README.md
-git commit -m "Added full README.md with project overview"
+git commit -m "Updated final README with solo authorship and project overview"
 git push
+
+
